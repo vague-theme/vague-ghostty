@@ -9,8 +9,8 @@
 1. Copy the `vague` file to the `themes/` subdirectory in your Ghostty configuration directory.
    For exmaple:
    ```sh
-   mkdir -p ~/.config/ghostty/themes
-   wget -P ~/.config/ghostty/themes https://github.com/vague-theme/ghostty/raw/refs/heads/main/vague
+   git clone https://github.com/vague-theme/vague-ghostty
+   mkdir -p ~/.config/ghostty/themes && cp vague-ghostty/vague $_
    ```
 
 2. Set theme in your Ghostty configuration file.
