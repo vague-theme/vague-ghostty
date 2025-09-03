@@ -6,7 +6,7 @@
 
 ## Usage
 
-1. Copy the `vague` file to the `themes/` subdirectory in your Ghostty configuration directory.
+1. Copy the [vague](vague) file to the `themes/` subdirectory in your Ghostty configuration directory.
    For exmaple:
    ```sh
    git clone https://github.com/vague-theme/vague-ghostty
