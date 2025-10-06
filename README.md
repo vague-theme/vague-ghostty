@@ -6,14 +6,9 @@
 
 ## Usage
 
-1. Copy the [vague](vague) file to the `themes/` subdirectory in your Ghostty configuration directory.
-   For exmaple:
-   ```sh
-   git clone https://github.com/vague-theme/vague-ghostty
-   mkdir -p ~/.config/ghostty/themes && cp vague-ghostty/vague $_
-   ```
+1. Save [vague](vague) file in the `themes/` subdirectory of your Ghostty configuration directory.
 
-2. Set theme in your Ghostty configuration file.
+2. In your Ghostty configuration file, set the theme as follows:
    ```conf
    theme = vague
    ```
@@ -22,4 +17,3 @@
 
 - [skewb1k](https://github.com/skewb1k)
 - [vague2k](https://github.com/vague2k)
-
