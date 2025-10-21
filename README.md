@@ -6,14 +6,25 @@
 
 ## Usage
 
+### Pre-installed
+
 Ghostty includes a built-in theme for Vague from [iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes)
 so you can skip the first step. However, you may still want to use the [vague](vague) file from this repository.
 This version is likely more up-to-date and feature-rich, since it isn't constrained by the upstream process
 of generating universal theme files for multiple applications.
 
+1. In your Ghostty configuration file, set the theme as follows:
+
+   ```conf
+   theme = Vague
+   ```
+
+### Manual
+
 1. Save [vague](vague) file in the `themes/` subdirectory of your Ghostty configuration directory.
 
 2. In your Ghostty configuration file, set the theme as follows:
+
    ```conf
    theme = vague
    ```
